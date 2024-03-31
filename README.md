@@ -1,6 +1,15 @@
 # pbta-template
 A code template for creating modules for Foundry VTT that use the PbtA System package
 
+> [!NOTE]
+> Using this template: 
+> You will need to replace all instances of pbta-template with your module name, the one used in module.json
+> Repo links will need to be updated to your repo
+> Perform an npm install
+> Use npm run gulp to get the scss working
+> Use the scripts in the tools folder for managing packs (https://foundryvtt.wiki/en/development/api/CompendiumCollection)
+> Releases are done using github's release process (the workflow should do everything else for you, as long as it's file list is correct for what should get put into the module.zip)
+
 ![Cover](assets/cover.webp)
 
 # A [game name] module for Foundry VTT using the PbtA System

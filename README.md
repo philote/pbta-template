@@ -3,12 +3,15 @@ A code template for creating modules for Foundry VTT that uses the PbtA System p
 
 > [!NOTE]
 > Using this template: 
-> - You will need to replace all instances of pbta-template with your module name, usually the one used in module.json. 
-> - Repo links will need to be updated to your repo. 
-> - Perform an npm install. 
-> - Use npm run gulp to get the scss working. 
-> - Use the scripts in the tools folder for managing packs (https://foundryvtt.wiki/en/development/api/CompendiumCollection). 
+> - You will need to replace all instances of pbta-template with your module name, usually the id used in module.json. 
+> - Repo links will need to be updated to your repo. (example: image urls in the module.json)
+> - Perform an `npm install`. 
+> - Use `npm run gulp` to get the scss working. 
+> - Use the scripts in the tools folder for managing packs (see: https://foundryvtt.wiki/en/development/api/CompendiumCollection). 
 > - Releases are done using github's release process (the workflow should do everything else for you, as long as it's file list is correct for what should get put into the module.zip).
+>   1. Create a new release
+>   2. Tag it with the release version
+>   3. Once you click "go" all artifacts should be created, including the module.zip and module.json
 > - Images will need to be updated, there are affinity photo files in the raw-assets folder.
 > - replace instances of my info with your own (in module.json authors, license file, package.json)
 

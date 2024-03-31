@@ -10,6 +10,7 @@ A code template for creating modules for Foundry VTT that use the PbtA System pa
 > - Use the scripts in the tools folder for managing packs (https://foundryvtt.wiki/en/development/api/CompendiumCollection). 
 > - Releases are done using github's release process (the workflow should do everything else for you, as long as it's file list is correct for what should get put into the module.zip).
 > - Images will need to be updated, there are affinity photo files in the raw-assets folder.
+> - replace instances of my info with your own (in module.json authors, license file, package.json)
 
 ![Cover](assets/cover.webp)
 

@@ -1,5 +1,31 @@
 {
     "PBTA-TEMPLATE" {
-        
+        "CharacterSheets": {
+            "rollResults": {
+                "complications": "tbd",
+                "partialSuccess": "tbd",
+                "success": "tbd"
+            },
+            "stats": {
+                "one": "tbd",
+                "two": "tbd",
+                "three": "tbd"
+            },
+            "details": {
+                "biographyLabel": "tbd"
+            },
+            "moveTypes": {
+                "basicLabel": "tbd",
+                "playbookLabel": "tbd"
+            }
+        },
+        "NPCSheets": {
+            "details": {
+                "biographyLabel": "tbd"
+            },
+            "moveTypes": {
+                "basicLabel": "tbd"
+            }
+        }
     }
 }

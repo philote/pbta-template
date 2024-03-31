@@ -1,0 +1,71 @@
+{
+  "id": "pbta-template",
+  "title": "[pbta-template] (PbtA)",
+  "description": "Unofficial [pbta-template] RPG custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
+  "version": "#{VERSION}#",
+  "library": "false",
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11.315,
+    "maximum": 11
+  },
+  "authors": [
+    {
+      "name": "ephson",
+      "url": "https://github.com/philote",
+      "discord": "ephson",
+      "reddit": "u/ephson"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system",
+        "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/master/system.json",
+        "compatibility": {
+          "minimum": "0.8.0",
+          "verified": "0.9.4"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/pbta-template.mjs"
+  ],
+  "styles": [
+    "css/pbta-template.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "packs": [],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "media": [
+    {
+      "type": "screenshot",
+      "url": "https://raw.githubusercontent.com/philote/pbta-template/main/assets/screenshot.webp",
+      "loop": false,
+      "caption": "Character Sheet"
+    },
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/philote/pbta-template/main/assets/cover.webp",
+      "loop": false,
+      "caption": "Cover Image"
+    },
+    {
+      "type": "setup",
+      "url": "https://raw.githubusercontent.com/philote/pbta-template/main/assets/package_image.webp",
+      "thumbnail": "https://raw.githubusercontent.com/philote/pbta-template/main/assets/package_image_thumb.webp"
+    }
+  ]
+}

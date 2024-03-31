@@ -1,5 +1,5 @@
 # pbta-template
-A code template for creating modules for Foundry VTT that use the PbtA System package
+A code template for creating modules for Foundry VTT that uses the PbtA System package
 
 > [!NOTE]
 > Using this template: 

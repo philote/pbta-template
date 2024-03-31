@@ -1,12 +1,14 @@
 {
-  "name": "pbta-rhapsodyofblood",
+  "name": "pbta-template",
   "version": "1.0.0",
-  "description": "CSS compiler for the PbtA Rhapsody of Blood system",
+  "description": "CSS compiler for the PbtA pbta-template system",
   "scripts": {
     "build": "gulp build",
     "compile": "gulp css",
     "watch": "gulp",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "pushLDBtoJSON": "node ./tools/pushLDBtoJSON.mjs",
+    "pullJSONtoLDB": "node ./tools/pullJSONtoLDB.mjs"
   },
   "browserslist": [
     "last 3 versions"
@@ -19,6 +21,7 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "sass": "^1.53.0"
+    "sass": "^1.53.0",
+    "@foundryvtt/foundryvtt-cli": "^1.0.2"
   }
 }

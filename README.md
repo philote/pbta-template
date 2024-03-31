@@ -28,6 +28,8 @@ This module is for [Foundry VTT](https://foundryvtt.com/) and requires the [PbtA
 
 [Description of the game with links to the publisher goes here.]
 
+![Screenshot](assets/screenshot.webp)
+
 ## Dependencies
 
 The following Foundry VTT game system must be installed to use this module: [Powered by the Apocalypse](https://foundryvtt.com/packages/pbta).
@@ -40,8 +42,6 @@ The following Foundry VTT game system must be installed to use this module: [Pow
 ## TODO
 - TODO One
 
-[Screenshots go here.]
-
-[License and acknowledgements]
+# License & Acknowledgements
 
 Icons from game-icons.net are released under a Creative Commons Attribution 3.0 Unported license. https://creativecommons.org/licenses/by/3.0/

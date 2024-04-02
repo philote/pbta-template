@@ -1,7 +1,7 @@
 {
   "name": "pbta-template",
   "version": "1.0.0",
-  "description": "CSS compiler for the PbtA pbta-template system",
+  "description": "CSS compiler for the PbtA [System Name] system",
   "scripts": {
     "build": "gulp build",
     "compile": "gulp css",

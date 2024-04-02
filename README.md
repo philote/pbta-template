@@ -1,10 +1,14 @@
-# pbta-template
+# PbtA Template
 A code template for creating modules for Foundry VTT that uses the PbtA System package
 
 > [!NOTE]
 > Using this template: 
-> - You will need to replace all instances of pbta-template with your module name, usually the id used in module.json. 
-> - Repo links will need to be updated to your repo. (example: image urls in the module.json)
+> - You will need to replace all instances of "pbta-template" with your module id, usually the id used in module.json. 
+> - replace all instances of "[System Name]" with a human readable version of the system name
+> - replace all instances of "PBTA-TEMPLATE" with with your module ID but in upper case
+> - Repo links will need to be updated to your repo url. (example: image urls in the module.json)
+> - LICENSE & package.json files will need "Joseph Hopson" replaced with your name/username
+> - files to rename: pbta-template.scss, pbta-template.css, pbta-template.mjs
 > - Perform an `npm install`. 
 > - Use `npm run gulp` to get the scss working. 
 > - Use the scripts in the tools folder for managing packs (see: https://foundryvtt.wiki/en/development/api/CompendiumCollection). 

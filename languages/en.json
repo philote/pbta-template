@@ -1,5 +1,5 @@
 {
-    "PBTA-TEMPLATE" {
+    "PBTA-TEMPLATE": {
         "CharacterSheets": {
             "rollResults": {
                 "complications": "tbd",
@@ -11,6 +11,7 @@
                 "two": "tbd",
                 "three": "tbd"
             },
+            "statToggle": "tbd",
             "details": {
                 "biographyLabel": "tbd"
             },

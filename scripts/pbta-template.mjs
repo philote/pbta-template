@@ -9,9 +9,9 @@ Hooks.once('pbtaSheetConfig', () => {
 
     // PBTA Settings
     game.settings.set('pbta', 'advForward', true);
-    game.settings.set('pbta', 'hideRollFormula', true);
+    game.settings.set('pbta', 'hideRollFormula', false);
     game.settings.set('pbta', 'hideForward', false);
     game.settings.set('pbta', 'hideOngoing', false);
     game.settings.set('pbta', 'hideRollMode', false);
-    game.settings.set('pbta', 'hideUses', true);
+    game.settings.set('pbta', 'hideUses', false);
 });

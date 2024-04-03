@@ -77,7 +77,7 @@ export const configSheet = async () => {
                     }
                 },
                 moveTypes: {
-                    villain: {
+                    basic: {
                         label: game.i18n.localize("PBTA-TEMPLATE.NPCSheets.moveTypes.basicLabel"),
                         moves: []
                     }

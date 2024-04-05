@@ -43,7 +43,19 @@
       "path": "languages/en.json"
     }
   ],
-  "packs": [],
+  "packs": [
+    {
+      "name": "basic-moves",
+      "label": "Basic Moves",
+      "path": "packs/basic-moves",
+      "type": "Item",
+      "system": "pbta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",

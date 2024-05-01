@@ -1,5 +1,5 @@
 export const configSheet = async () => {
-    // Pass Masks sheet object to sheetConfig
+    // Pass module sheet object to sheetConfig
     game.pbta.sheetConfig = {
         rollFormula: "2d6",
         rollShifting: true,

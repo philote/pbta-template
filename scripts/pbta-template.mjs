@@ -1,6 +1,7 @@
 import { configSheet } from "./helpers/config-sheet.mjs";
 
 Hooks.once('pbtaSheetConfig', () => {
+    // https://github.com/asacolips-projects/pbta?tab=readme-ov-file#overriding-sheet-config-in-a-module
     // Disable the PbtA sheet config form.
     game.settings.set('pbta', 'sheetConfigOverride', true);
 

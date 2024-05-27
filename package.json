@@ -1,7 +1,13 @@
 {
   "name": "pbta-template",
   "version": "1.0.0",
-  "description": "CSS compiler for the PbtA [System Name] system",
+  "description": "CSS compiler & linting for the PbtA [System Name] system",
+  "author": "Joseph Hopson",
+  "license": "MIT",
+  "private": true,
+  "browserslist": [
+    "last 3 versions"
+  ],
   "scripts": {
     "build": "gulp build",
     "compile": "gulp css",
@@ -10,14 +16,11 @@
     "pushLDBtoJSON": "node ./tools/pushLDBtoJSON.mjs",
     "pullJSONtoLDB": "node ./tools/pullJSONtoLDB.mjs"
   },
-  "browserslist": [
-    "last 3 versions"
-  ],
-  "author": "Joseph Hopson",
-  "license": "MIT",
-  "private": true,
   "devDependencies": {
+    "@eslint/js": "^9.3.0",
     "@foundryvtt/foundryvtt-cli": "^1.0.2",
+    "eslint": "^9.3.0",
+    "globals": "^15.2.0",
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^5.1.0",

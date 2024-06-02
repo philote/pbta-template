@@ -3,11 +3,10 @@
   "title": "[System Name] (PbtA)",
   "description": "Unofficial [System Name] RPG custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
   "version": "#{VERSION}#",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 11,
-    "verified": 11.315,
-    "maximum": 11
+    "verified": 12.325,
+    "maximum": 12
   },
   "authors": [
     {
@@ -24,8 +23,7 @@
         "type": "system",
         "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/master/system.json",
         "compatibility": {
-          "minimum": "0.8.0",
-          "verified": "0.9.4"
+          "minimum": "1.0.0"
         }
       }
     ]

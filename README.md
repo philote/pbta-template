@@ -26,13 +26,34 @@ A code template for creating modules for Foundry VTT that uses the PbtA System p
 This module is for [Foundry VTT](https://foundryvtt.com/) and requires the [PbtA System](https://github.com/asacolips-projects/pbta) created by [asacolips](https://github.com/asacolips).
 
 ![](https://img.shields.io/badge/Foundry-v11-informational)
+![](https://img.shields.io/badge/Foundry-v12-informational)
 <!--- Downloads @ Latest Badge -->
 ![Latest Release Download Count](https://img.shields.io/github/downloads/philote/pbta-template/latest/module.zip)
 <!--- Forge Bazaar Install % Badge -->
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%pbta-template&colorB=4aa94a)
 
+<p align="center">
+    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/philote/pbta-template"> 
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/philote/pbta-template"> 
+    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/philote/pbta-template/total" /> 
+    <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/philote/dierpg?label=latest%20release" /> 
+</p>
+<p align="center">
+    <img alt="GitHub" src="https://img.shields.io/github/license/philote/pbta-template"> 
+    <a href="https://github.com/philote/pbta-template/issues">
+        <img alt="GitHub issues" src="https://img.shields.io/github/issues/philote/pbta-template">
+    </a> 
+    <a href="https://github.com/philote/pbta-template/network">
+        <img alt="GitHub forks" src="https://img.shields.io/github/forks/philote/pbta-template">
+    </a> 
+    <a href="https://github.com/philote/pbta-template/stargazers">
+        <img alt="GitHub stars" src="https://img.shields.io/github/stars/philote/pbta-template">
+    </a> 
+</p>
+
 [Description of the game with links to the publisher goes here.]
 
+## Screenshot
 ![Screenshot](assets/screenshot.webp)
 
 ## Dependencies

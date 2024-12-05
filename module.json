@@ -5,7 +5,7 @@
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": 11,
-    "verified": 12.325,
+    "verified": 12.331,
     "maximum": 12
   },
   "authors": [
@@ -16,6 +16,12 @@
       "reddit": "u/ephson"
     }
   ],
+  "flags": {
+    "hotReload": {
+      "extensions": ["css", "html", "hbs", "json"],
+      "paths": ["css", "lang", "templates"]
+    }
+  },
   "relationships": {
     "systems": [
       {
@@ -29,7 +35,7 @@
     ]
   },
   "esmodules": [
-    "scripts/pbta-template.mjs"
+    "module/pbta-template.mjs"
   ],
   "styles": [
     "css/pbta-template.css"
@@ -38,7 +44,7 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "lang/en.json"
     }
   ],
   "packs": [
@@ -59,6 +65,7 @@
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
+  "bugs": "Replace this with a link to file issues or tickets",
   "media": [
     {
       "type": "screenshot",

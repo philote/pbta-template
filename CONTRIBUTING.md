@@ -8,6 +8,9 @@ With the change to LevelDB, there is an extra step to create the packs locally.
 
 - Clone the repository as usual
 - You need to have a node.js installation done
+- run `npm install`
+- then `npm run build` to build once or `npm run watch` to have a SCSS watcher running to update the CSS when SCSS is updated.
+- If you want Foundry to hot-reload pages as you make updates, you will need to launch Foundry with the `--hotReload` flag. See [Using Command Line Flags](https://foundryvtt.com/article/configuration/)
 - You must be in Foundry welcome page (or have it completely closed) and NOT in a world. In the system directory, do : 
     - npm install will generate the node_modules depending on package.json and package-lock.json
     - npm run pullJSONtoLDB will create the packs depending of the content of src/packs directory

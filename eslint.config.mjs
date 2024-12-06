@@ -14,7 +14,7 @@ export default [
         ui: "readonly",
         require: "readonly",
         exports: "readonly",
-        process: "readonly"
+        process: "readonly",
       }
     }
   },

@@ -5,16 +5,16 @@ export const configSheet = async () => {
         rollFormula: "2d6",
         rollShifting: true,
         statShifting: {
-            label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.shiftStats.label"),
+            label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.shiftStats.label"),
             img: "systems/pbta/assets/icons/svg/back-forth.svg",
             value: 1,
             labels: {
-                stat: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.shiftStats.statLabel"),
-                stats: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.shiftStats.statsLabel"),
+                stat: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.shiftStats.statLabel"),
+                stats: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.shiftStats.statsLabel"),
             },
         },
         statToggle: {
-            label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.statToggle"),
+            label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.statToggle"),
             modifier: 0
         },
         minMod: -3,
@@ -23,43 +23,43 @@ export const configSheet = async () => {
             failure: {
                 start: -Infinity,
                 end: 6,
-                label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.rollResults.complications")
+                label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.rollResults.complications")
             },
             partial: {
                 start: 7,
                 end: 9,
-                label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.rollResults.partialSuccess")
+                label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.rollResults.partialSuccess")
             },
             success: {
                 start: 10,
                 end: 12,
-                label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.rollResults.success")
+                label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.rollResults.success")
             },
             critical: {
                 start: 13,
                 end: Infinity,
-                label: game.i18n.localize('PBTA-TEMPLATE.CharacterSheets.rollResults.critical'),
+                label: game.i18n.localize('PBTA_TEMPLATE.CharacterSheets.rollResults.critical'),
             }
         },
         actorTypes: {
             character: {
                 stats: {
                     one: {
-                        label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.stats.one"),
+                        label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.stats.one"),
                         value: 0
                     },
                     two: {
-                        label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.stats.two"),
+                        label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.stats.two"),
                         value: 0
                     },
                     three: {
-                        label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.stats.three"),
+                        label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.stats.three"),
                         value: 0
                     }
                 },
                 attributes: {
                     xp: {
-                        label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.attr.xpLabel"),
+                        label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.attr.xpLabel"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -70,7 +70,7 @@ export const configSheet = async () => {
                         position: "Top"
                     },
                     injury: {
-                        label: game.i18n.localize('PBTA-TEMPLATE.CharacterSheets.attr.injuryLabel'),
+                        label: game.i18n.localize('PBTA_TEMPLATE.CharacterSheets.attr.injuryLabel'),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -81,7 +81,7 @@ export const configSheet = async () => {
                         position: 'Top',
                       },
                     coin: {
-                        label: game.i18n.localize('PBTA-TEMPLATE.CharacterSheets.attr.coinLabel'),
+                        label: game.i18n.localize('PBTA_TEMPLATE.CharacterSheets.attr.coinLabel'),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -91,8 +91,8 @@ export const configSheet = async () => {
                         position: 'Top',
                     },
                     conditions: {
-                        label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.attr.conditions.label"),
-                        description: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.attr.conditions.description"),
+                        label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.attr.conditions.label"),
+                        description: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.attr.conditions.description"),
                         customLabel: false,
                         userLabel: false,
                         type: "ListMany",
@@ -100,23 +100,23 @@ export const configSheet = async () => {
                         position: "Left",
                         options: {
                             0: {
-                                label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.attr.conditions.options.0"),
+                                label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.attr.conditions.options.0"),
                                 value: false,
                             },
                             1: {
-                                label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.attr.conditions.options.1"),
+                                label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.attr.conditions.options.1"),
                                 value: false,
                             },
                             2: {
-                                label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.attr.conditions.options.2"),
+                                label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.attr.conditions.options.2"),
                                 value: false,
                             },
                             3: {
-                                label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.attr.conditions.options.3"),
+                                label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.attr.conditions.options.3"),
                                 value: false,
                             },
                             4: {
-                                label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.attr.conditions.options.4"),
+                                label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.attr.conditions.options.4"),
                                 value: false,
                             },
                         },
@@ -124,7 +124,7 @@ export const configSheet = async () => {
                 },
                 details: {
                     looks: {
-                        label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.details.looksLabel"),
+                        label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.details.looksLabel"),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -132,32 +132,32 @@ export const configSheet = async () => {
                         playbook: true,
                     },
                     biography: {
-                        label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.details.biographyLabel"),
+                        label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.details.biographyLabel"),
                         value: ""
                     },
                 },
                 moveTypes: {
                     basic: {
-                        label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.moveTypes.basicLabel"),
+                        label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.moveTypes.basicLabel"),
                         moves: [],
                         creation: true
                     },
                     playbook: {
-                        label: game.i18n.localize("PBTA-TEMPLATE.CharacterSheets.moveTypes.playbookLabel"),
+                        label: game.i18n.localize("PBTA_TEMPLATE.CharacterSheets.moveTypes.playbookLabel"),
                         moves: [],
                         playbook: true
                     }
                 },
                 equipmentTypes: {
                   equipment: {
-                    label: game.i18n.localize('PBTA-TEMPLATE.CharacterSheets.equipmentLabel'),
+                    label: game.i18n.localize('PBTA_TEMPLATE.CharacterSheets.equipmentLabel'),
                   },
                 },
             },
             npc: {
                 attributes: {
                     fly: {
-                        label: game.i18n.localize('PBTA-TEMPLATE.NPCSheets.attr.flyLabel'),
+                        label: game.i18n.localize('PBTA_TEMPLATE.NPCSheets.attr.flyLabel'),
                         description: null,
                         customLabel: null,
                         userLabel: null,
@@ -166,7 +166,7 @@ export const configSheet = async () => {
                         position: 'Top',
                     },
                     injury: {
-                        label: game.i18n.localize('PBTA-TEMPLATE.NPCSheets.attr.injuryLabel'),
+                        label: game.i18n.localize('PBTA_TEMPLATE.NPCSheets.attr.injuryLabel'),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -178,14 +178,14 @@ export const configSheet = async () => {
                     },
                     faction: {
                         type: 'Text',
-                        label: game.i18n.localize('PBTA-TEMPLATE.NPCSheets.attr.factionLabel'),
+                        label: game.i18n.localize('PBTA_TEMPLATE.NPCSheets.attr.factionLabel'),
                         description: null,
                         customLabel: false,
                         userLabel: false,
                         position: 'Left',
                     },
                     age: {
-                        label: game.i18n.localize('PBTA-TEMPLATE.NPCSheets.attr.ageLabel'),
+                        label: game.i18n.localize('PBTA_TEMPLATE.NPCSheets.attr.ageLabel'),
                         description: null,
                         customLabel: null,
                         userLabel: false,
@@ -196,19 +196,19 @@ export const configSheet = async () => {
                 },
                 details: {
                     biography: {
-                        label: game.i18n.localize("PBTA-TEMPLATE.NPCSheets.details.biographyLabel"),
+                        label: game.i18n.localize("PBTA_TEMPLATE.NPCSheets.details.biographyLabel"),
                         value: ""
                     }
                 },
                 moveTypes: {
                     basic: {
-                        label: game.i18n.localize("PBTA-TEMPLATE.NPCSheets.moveTypes.basicLabel"),
+                        label: game.i18n.localize("PBTA_TEMPLATE.NPCSheets.moveTypes.basicLabel"),
                         moves: []
                     }
                 },
                 equipmentTypes: {
                     loot: {
-                        label: game.i18n.localize('PBTA-TEMPLATE.NPCSheets.lootLabel'),
+                        label: game.i18n.localize('PBTA_TEMPLATE.NPCSheets.lootLabel'),
                     },
                 },
             }
@@ -248,8 +248,8 @@ export const tagConfig = {
         all: '',
         // Tags available to a specific item type (e.g. "equipment", "move")
         equipment:
-            '[{"value":"PBTA-TEMPLATE.Tags.equipment.strong.value", "editable":false, "description":"PBTA-TEMPLATE.Tags.equipment.strong.description"}, ' +
-            '{"value":"PBTA-TEMPLATE.Tags.equipment.weak.value", "editable":false, "description":"PBTA-TEMPLATE.Tags.equipment.weak.description"}, ' +
-            '{"value":"PBTA-TEMPLATE.Tags.equipment.glows.value", "editable":false, "description":"PBTA-TEMPLATE.Tags.equipment.glows.description"}]',
+            '[{"value":"PBTA_TEMPLATE.Tags.equipment.strong.value", "editable":false, "description":"PBTA_TEMPLATE.Tags.equipment.strong.description"}, ' +
+            '{"value":"PBTA_TEMPLATE.Tags.equipment.weak.value", "editable":false, "description":"PBTA_TEMPLATE.Tags.equipment.weak.description"}, ' +
+            '{"value":"PBTA_TEMPLATE.Tags.equipment.glows.value", "editable":false, "description":"PBTA_TEMPLATE.Tags.equipment.glows.description"}]',
     },
 };  

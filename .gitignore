@@ -34,3 +34,6 @@ packs/*
 
 #OS
 .DS_Store
+
+# Pbta Template
+build/

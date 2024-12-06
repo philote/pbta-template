@@ -1,5 +1,5 @@
 {
-    "PBTA-TEMPLATE": {
+    "PBTA_TEMPLATE": {
         "CharacterSheets": {
             "rollResults": {
                 "complications": "Complications",
@@ -79,7 +79,7 @@
             "startup": {
                 "name": "First Time Startup",
                 "dialog": {
-                    "title": "Welcome to [pbta-template]",
+                    "title": "Welcome to PbtA Template",
                     "content": "Would you like to use this module's custom startup screen?"
                 }
             },

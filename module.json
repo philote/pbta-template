@@ -1,6 +1,6 @@
 {
   "id": "pbta-template",
-  "title": "[System Name] (PbtA)",
+  "title": "PbtA Template (PbtA)",
   "description": "Unofficial [System Name] RPG custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
   "version": "#{VERSION}#",
   "compatibility": {

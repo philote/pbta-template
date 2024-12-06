@@ -3,7 +3,7 @@ import * as pbtaConfig from './helpers/pbta-config.mjs';
 Hooks.once('init', () => {
     // Register settings
     game.settings.register('pbta-template', 'firstTime', {
-        name: game.i18n.localize('PBTA-TEMPLATE.Settings.startup.name'),
+        name: game.i18n.localize('PBTA_TEMPLATE.Settings.startup.name'),
         scope: 'world',
         config: false,
         type: Boolean,
@@ -11,8 +11,8 @@ Hooks.once('init', () => {
     });
 
     game.settings.register('pbta-template', 'enableLoginImg', {
-        name: game.i18n.localize('PBTA-TEMPLATE.Settings.img.name'),
-        hint: game.i18n.localize('PBTA-TEMPLATE.Settings.img.hint'),
+        name: game.i18n.localize('PBTA_TEMPLATE.Settings.img.name'),
+        hint: game.i18n.localize('PBTA_TEMPLATE.Settings.img.hint'),
         scope: 'world',
         config: true,
         type: Boolean,
@@ -67,8 +67,8 @@ Hooks.once('ready', async function () {
         };
   
         foundry.applications.api.DialogV2.confirm({
-            window: { title: game.i18n.localize('PBTA-TEMPLATE.Settings.startup.dialog.title') },
-            content: game.i18n.localize('PBTA-TEMPLATE.Settings.startup.dialog.content'),
+            window: { title: game.i18n.localize('PBTA_TEMPLATE.Settings.startup.dialog.title') },
+            content: game.i18n.localize('PBTA_TEMPLATE.Settings.startup.dialog.content'),
             rejectClose: false,
             modal: true,
             yes: { callback: callback },

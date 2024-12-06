@@ -2,13 +2,13 @@
 A code template for creating modules for Foundry VTT that uses the PbtA System package.
 
 ## Usage
-There are two ways to get started: using the PbtA Template system generator command or manually renaming and updating files.
+There are two ways to get started: using the PbtA Template module generator command or manually renaming and updating files.
 
 Regardless of which method you choose, think carefully about your modules's name. Your modules's package name when submitted to Foundry must be formatted like `alphanumeric-lowercase`, and it must be unique. Check the Foundry systems package list for conflicts before committing to a name!
 
 ### Generator
 
-This system includes a generator CLI in `package.json`. To use it, you must have [node.js](https://nodejs.org) installed, and it's recommended that you install node 20 or later.
+This module includes a generator CLI in `package.json`. To use it, you must have [node.js](https://nodejs.org) installed, and it's recommended that you install node 20 or later.
 Once you have npm installed, you can run the following in your terminal or command prompt:
 
 ```bash
@@ -16,7 +16,7 @@ npm install
 npm run generate
 ```
 
-Your terminal should prompt you to name your module. Read the instructions carefully, the letter case and special characters in each question matter for correct system generation.
+Your terminal should prompt you to name your module. Read the instructions carefully, the letter case and special characters in each question matter for correct module generation.
 
 Once the generator completes, it will output your module to `build/<your-module-name>`, where `<your-module-name>` is the package name you supplied during the prompt.
 
@@ -24,7 +24,7 @@ Copy this directory over to your Foundry modules directory and start coding!
 
 ### Manual Replacement
 
-Before installing this module, you should rename any files that have `pbta-template` in their filename to use whatever machine-safe name your system needs, such as `masks` if you were building a module for Masks: The New Generation. In addition, you should search through the files for `pbta-template`, `PBTA_TEMPLATE` and `PbtA Template` and do the same for those, replacing them with appropriate names for your system.
+Before installing this module, you should rename any files that have `pbta-template` in their filename to use whatever machine-safe name your module needs, such as `masks` if you were building a module for Masks: The New Generation. In addition, you should search through the files for `pbta-template`, `PBTA_TEMPLATE` and `PbtA Template` and do the same for those, replacing them with appropriate names for your module.
 
 The `name` property in your `module.json` file is your modules's package name. This needs to be formatted `alphanumeric-lowercase`, and it must also match the foldername you use for your module.
 

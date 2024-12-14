@@ -225,8 +225,8 @@ inquirer
     // Clean out our build directory.
     generator.cleanBuildDir();
 
-    // Glob Boilerplate's files so that we can process them.
-    glob("*", { ignore: ["node_modules/**"] }).then((files) => {
+    // Glob PbtA Template's files so that we can process them.
+    glob("*", { ignore: ["node_modules/**", ".git/**"], dot: true }).then((files) => {
       // Copy all files into the build dir.
       generator.copyFiles(files);
       // Replace boilerplate name mentions in files.

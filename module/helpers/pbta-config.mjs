@@ -220,14 +220,23 @@ export const configSheet = async () => {
  * Settings for the PbtA system
  */
 export function pbtaSettings() {
+    // Hides forward input on character sheets.
     game.settings.set('pbta', 'hideForward', false);
+    // Hides ongoing input on character sheets.
     game.settings.set('pbta', 'hideOngoing', false);
-    game.settings.set('pbta', 'hideUses', true);
-    game.settings.set('pbta', 'hideRollFormula', true);
-    game.settings.set('pbta', 'hideRollMode', true);
-    game.settings.set('pbta', 'advForward', false);
+    // Hides uses remaining for each move on the move's summary for characters and NPCs.
+    game.settings.set('pbta', 'hideUses', false);
+    // Hides custom roll formula input on character sheets.
+    game.settings.set('pbta', 'hideRollFormula', false);
+    // Hides roll mode override (normal/advantage/disadvantage) on character sheets.
+    game.settings.set('pbta', 'hideRollMode', false);
+    // If enabled, advantage and disadvantage choices on the character sheet will be reset to normal after each roll (similar to Forward).
+    game.settings.set('pbta', 'advForward', true);
+    // Hides hold input on character sheets.
+    game.settings.set('pbta', 'hideHold', false);
     if (game.settings.settings.has('pbta.hideAdvancement')) {
-      game.settings.set('pbta', 'hideAdvancement', false);
+        //Hides the Advancements in the actor sheet. Any option that isn't \"None\" also hides the \"(Advancement #)\" on the Actors sidebar.
+        game.settings.set('pbta', 'hideAdvancement', false);
     }
 };
 

@@ -54,7 +54,7 @@ See the CONTRIBUTING.md for more information.
 
 ![Cover](assets/cover.webp)
 
-# A PbtA Template module for Foundry VTT using the PbtA System
+# PbtA Template Module (Unofficial)
 This module is for [Foundry VTT](https://foundryvtt.com/) and requires the [PbtA System](https://github.com/asacolips-projects/pbta) created by [asacolips](https://github.com/asacolips).
 
 <p align="center">

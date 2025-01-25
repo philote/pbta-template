@@ -98,3 +98,45 @@ Hooks.once('ready', async function () {
         }
     }
 });
+
+// Add buttons to the Game settings menu
+Hooks.on("renderSettings", (app, html) => {
+    const header = document.createElement("h2");
+    header.innerText = game.i18n.localize('PBTA_TEMPLATE.Settings.game.heading');
+
+    const pbtaSettings = document.createElement("div");
+    html.find("#settings-game")?.after(header, pbtaSettings);
+
+    const buttons = [
+        {
+            action: (ev) => {
+                ev.preventDefault();
+                window.open("https://<publisher url>/", "_blank");
+            },
+            iconClasses: ["fa-solid", "fa-book"],
+            label: game.i18n.localize('PBTA_TEMPLATE.Settings.game.publisher.title')
+        },
+        {
+            action: (ev) => {
+                ev.preventDefault();
+                window.open("https://github.com/philote/pbta-template", "_blank");
+            },
+            iconClasses: ["fab", "fa-github"],
+            label: game.i18n.localize(`PBTA_TEMPLATE.Settings.game.github.title`)
+        },
+    ].map(({ action, iconClasses, label }) => {
+        const button = document.createElement("button");
+        button.type = "button";
+
+        const icon = document.createElement("i");
+        icon.classList.add(...iconClasses);
+
+        button.append(icon, game.i18n.localize(label));
+
+        button.addEventListener("click", action);
+
+        return button;
+    });
+
+    pbtaSettings.append(...buttons);
+});

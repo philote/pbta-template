@@ -4,7 +4,7 @@
   "description": "Unofficial PbtA Template RPG custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
   "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": 11,
+    "minimum": 12,
     "verified": 12.331,
     "maximum": 12
   },
@@ -27,7 +27,6 @@
       {
         "id": "pbta",
         "type": "system",
-        "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/latest/system.json",
         "compatibility": {
           "minimum": "1.0.0"
         }

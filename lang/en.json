@@ -76,6 +76,15 @@
             }
         },
         "Settings": {
+            "game": {
+				"heading": "PbtA Template (PbtA)",
+				"publisher": {
+					"title": "Publisher Name"
+				},
+				"github": {
+					"title": "Module Repository"
+				}
+			},
             "startup": {
                 "name": "First Time Startup",
                 "dialog": {

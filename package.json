@@ -7,6 +7,7 @@
     "watch": "sass src/scss/pbta-template.scss css/pbta-template.css --style=expanded --source-map --watch",
     "pushLDBtoJSON": "node ./tools/pushLDBtoJSON.mjs",
     "pullJSONtoLDB": "node ./tools/pullJSONtoLDB.mjs",
+    "createSymlinks": "node ./tools/create-symlinks.mjs",
     "generate": "node src/generate-pbta-template-module.mjs"
   },
   "browserslist": [
